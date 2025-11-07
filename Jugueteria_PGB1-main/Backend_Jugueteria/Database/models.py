@@ -31,7 +31,7 @@ class Usuario:
                         datos['email'],
                         hashed_pwd,
                         datos.get('nombre', ''),
-                        datos.get('apellidoo', ''),
+                        datos.get('apellido', ''),
                         datos.get('telefono', ''),
                         datos.get('direccion', ''),
                         datos.get('rol', 'cliente')
